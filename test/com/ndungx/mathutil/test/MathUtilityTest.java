@@ -45,9 +45,10 @@ public class MathUtilityTest {
         getFactorial(-5);
     }
 
-    //thêm chữ 'test,' vào sau 'init,compile,' ở dòng 1204 trong build-impl.xml
-    //để khi clean and build nếu bị lỗi logic (uncheck) sẽ không tạo file jar
+    //thêm chữ 'test,' vào sau 'init,compile,' ở dòng 1204 (netbeans 11.2) trong 
+    // build-impl.xml để khi clean and build nếu bị lỗi logic (uncheck) sẽ không tạo file jar
+    //
     // coppy 2 file jar ở \Program Files\NetBeans 8.2 RC\platform\modules\ext
-    // để server github đem về tự compiled giúp
+    // vào folder project để server github đem về tự compiled giúp
     
 }
