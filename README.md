@@ -1,5 +1,7 @@
 ## Welcome to Math Utiltility Repository. This repo offers various math methods used as a helper for your project.
 
+[![MathUtil | Demo CI Process | ©2021 by NDungx](https://github.com/ndungx/Math_Util/actions/workflows/mathutil-ci.yml/badge.svg)](https://github.com/ndungx/Math_Util/actions/workflows/mathutil-ci.yml)
+
 ### _You will find in this repo the following stuff:_
 
 * .gitignore itself to demonstrate how Git tool will upload a file or not
