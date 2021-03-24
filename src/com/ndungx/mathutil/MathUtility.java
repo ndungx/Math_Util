@@ -23,7 +23,7 @@ public class MathUtility {
         }
 
         if (n == 0 || n == 1) { //khỏi mắc công tính, return ngay
-            return 1;
+            return 0;
         }
 
         //đến đc đây thì sure kèo n = 0..20

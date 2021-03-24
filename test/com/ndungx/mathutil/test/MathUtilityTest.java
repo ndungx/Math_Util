@@ -38,10 +38,13 @@ public class MathUtilityTest {
         //ngoại lệ là không phải value để so sánh, không dùng assertEquals()
         //ta dùng chiêu khác. JUnit 4 Khác JUnit 5 ở chỗ bắt ngoại lệ
         getFactorial(-5);
+        getFactorial(21);
+        getFactorial(40);
     }
 
-    //thêm chữ 'test,' vào sau 'init,compile,' ở dòng 1204 (netbeans 11.2) trong 
-    // build-impl.xml để khi clean and build nếu bị lỗi logic (uncheck) sẽ không tạo file jar
+    //thêm chữ 'test,' vào sau 'init,compile,' ở dòng 1204 (netbeans 11.2) 
+    // (1005 netbeans 8.2) trong build-impl.xml để khi clean and build nếu 
+    // bị lỗi logic (uncheck) sẽ không tạo file jar
     //
     // coppy 2 file jar ở \Program Files\NetBeans 8.2 RC\platform\modules\ext
     // vào folder project để server github đem về tự compiled giúp
