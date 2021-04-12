@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
  * @author NDungx
  */
 public class MathUtilityTest {
-    
+
     @Test
     public void testFactorialGivenRightArgumentReturnsGoodResult() {
         int n = 5;  // tui muốn test 5! có đúng = 120 hay ko
@@ -48,8 +48,5 @@ public class MathUtilityTest {
     //
     // coppy 2 file jar ở \Program Files\NetBeans 8.2 RC\platform\modules\ext
     // vào folder project để server github đem về tự compiled giúp
-    
-    
     //regression test (test hồi quy): test lại những thứ đã test
-    
 }
